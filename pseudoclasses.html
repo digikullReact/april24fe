@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /**
+        1. **`:hover`** - Applies a style when the user hovers over an element with a pointer device.
+2. **`:focus`** - Applies a style when an element has received focus, either from the user selecting it with a keyboard or activating it with a mouse.
+3. **`:active`** - Applies a style when an element is being activated by the user; for example, when clicking a button or link.
+4. **`:visited`** and **`:link`** - Style links depending on whether they have been visited (`:visited`) or not (`:link`).
+5. **`:first-child`** and **`:last-child`** - Target the first or last child elements within their parent container.
+6. **`:nth-child()`** - Styles elements based on their position within a parent, using a formula or specific number.
+7. **`:not()`** - Applies a style to elements that do not match the given selector.
+8. **`:checked`** - Styles form elements such as checkboxes or radio buttons that are selected.
+9. **`:disabled`** and **`:enabled`** - Style elements based on whether they are enabled or disabled.
+        **/
+
+        #btn:hover{
+            background-color: blue;
+            color: azure;
+        }
+
+        input:focus{
+            border: 10px solid green;
+        }
+
+        a:visited{
+            color: chocolate;
+        }
+
+        #btn2:disabled{
+            background-color: gray;
+            color: white;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+
+
+    <button id="btn">
+        Hover over me !!
+    </button>
+
+
+    <button disabled id="btn2">
+        Hover over me 2!!
+    </button>
+
+    <a href="http://www.digikull.com" >digikull.com</a>
+
+    <input type="text" name="" id="" placeholder="click or tab in me">
+</body>
+</html>
