@@ -1,11 +1,16 @@
 .flex-container{
     display: flex;
-    height: 400px;
+    height: 900px;
  /*   flex-wrap: wrap;*/
     background-color: grey;
    /* justify-content: center;*/
-    flex-direction: column;
-    align-items: center; /*  when ever you dd flex-driection column the axises get changed
+    flex-direction: column; /*column-reverse ,row-reverse ,row*/
+    justify-content: space-around; /*space-evenly ,center ,space-between 
+    
+    ,space-around ,flex-start,flex - end*/
+    align-items: center; /* 
+    
+    when ever you dd flex-driection column the axises get changed
     the things that were done by justify content will now be done by the align items
     
     */
