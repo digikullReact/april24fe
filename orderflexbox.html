@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container{
+    display: flex;
+    height: 900px;
+    background-color: grey;
+  /*-2, -1, 0, 1, 2*/
+    /*by default the order is 0*/
+    /*if the order is lower then they will appear first */
+    /*if two elements seems  to have the same order then order in which they are written
+    in html are used 
+    */
+    /*leftmost would be the lowest order and then bigger and then more bigger*/
+}
+
+.flex-item-1{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    order: -1;
+}
+.flex-item-2{
+    width: 200px;
+    height: 200px;
+    background-color: palevioletred;
+    order: -2;
+}
+.flex-item-3{
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    order: 1;
+}
+    </style>
+</head>
+<body>
+
+    <div class="flex-container">
+
+        <div class="flex-item flex-item-1">
+            One
+
+        </div>
+
+        <div class="flex-item flex-item-2">
+            Two 
+
+        </div>
+
+        <div class="flex-item flex-item-3">
+            Three
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
