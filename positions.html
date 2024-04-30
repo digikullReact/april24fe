@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .parent{
+            position: relative;
+            height: 2000vh;
+            background-color: grey;
+
+        }
+        .child-1{
+            top:0px;
+           
+            /*in position absolute you wont see the element if it doesnt have content
+            or if you have given it a fixed
+            in position relative you will see the element even if the content is not present
+            */
+            position: sticky; /*by default position relative but when you scroll it become fixed to its location */
+            height: 100px;
+            width: 500px;
+            background-color: hotpink;
+        }
+
+        .child-2{
+            height: 100px;
+            background-color: gold;
+        }
+
+        .child-3{
+            height: 100px;
+            background-color: firebrick;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child-1">
+hello
+        </div>
+
+       
+        <div class="child-3">
+
+        </div>
+        <div class="child-2">
+
+        </div>
+
+
+    </div>
+
+  
+
+
+</body>
+</html>
