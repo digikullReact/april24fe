@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+.flex-container{
+    height: 1000px;
+    background-color: grey;
+    display: flex;
+    /*flex-direction: row-reverse;*/
+    justify-content: baseline;
+    flex-wrap: wrap-reverse;
+    align-items:stretch;  /*try to use stretch when you want your flex items 
+    
+    
+    
+    to occupy the complete available space
+    */  
+    
+    /*flex-end ,flex-start ,baseline ,center*/
+  
+ 
+   
+     /*baseline ,
+     flex-start,
+     flex-end 
+     ,space-evenly 
+     ,space-between  --there will be only spaces between the items 
+     center   
+     space-around
+        */
+
+}
+
+/* 0 ,1,2 ,-1,-2*/ /*by default the oroder is 0 for every element
+order increases from left to right ,left being the lowest of all
+*/
+      .flex-item{
+        width:  200px;
+       
+
+      }
+      .flex-item-1{
+        height:  400px;
+        background-color: hotpink;
+     /*   align-self: flex-end;*/
+    
+
+      }
+      .flex-item-2{
+        height:  300px;
+        background-color:khaki;
+        order: 2;
+
+      }
+      .flex-item-3{
+        height:  100px;
+        background-color: navajowhite;
+        order: 2;
+
+      }
+
+      .flex-item-5{
+        height:  100px;
+        background-color: gold;
+        order: 2;
+
+      }
+
+
+      .flex-item-4{
+        height:  100px;
+        background-color:olive;
+        order: 2;
+
+      }
+
+
+/**
+flex-wrap 
+flex-flow
+align-content
+
+
+*/
+
+    </style>
+</head>
+<body>
+
+    <div class="flex-container">
+
+        <div class="flex-item flex-item-1">
+
+        </div>
+        <div class="flex-item flex-item-2">
+
+        </div>
+        <div class="flex-item flex-item-3">
+
+        </div>
+
+        <div class="flex-item flex-item-4">
+
+        </div>
+     
+
+        <div class="flex-item flex-item-5">
+
+        </div>
+     
+     
+     
+     
+      
+      
+
+
+    </div>
+    
+</body>
+</html>
