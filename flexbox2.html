@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px; 
+  align-content: space-around;  /*the work around the cross axis it will have same value 
+  as justify -content but will move the items around cross axis
+  it will do the same things  on cross axis that justify-content does along the main axis
+  */
+}
+
+.item {
+  width: 500px;
+  height: 50px;
+  background-color: lightblue;
+  margin: 5px;
+}
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+      </div>
+    
+</body>
+</html>

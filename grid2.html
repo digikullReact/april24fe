@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4,200px);
+ grid-template-rows: minmax(150px ,auto) 700px;
+ grid-auto-rows: 300px; /*if you dnt give this property the height of element will be decided
+ by the content or by the grid-template-rows property 
+ if you have not given any value for the grid -template-rows property
+ then this value will be utilized and used to define the hight of element
+ */
+  column-gap: 10px;
+  row-gap: 10px;
+
+
+}
+
+.item-1 {
+
+  background-color: gold;
+
+
+}
+.item-2 {
+
+background-color: greenyellow;
+
+}
+
+.item-3 {
+
+background-color: plum;
+
+}
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="item-1">
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quasi inventore accusamus reprehenderit exercitationem dicta suscipit sequi nesciunt qui. Rem porro nam aliquid doloremque est nostrum at blanditiis, praesentium dolores! Molestias dolorem minus quia doloremque porro. Corrupti dolorum officiis, nam sint alias possimus debitis nulla, recusandae voluptatem, quia consequuntur molestias facere suscipit. Asperiores mollitia, aspernatur fugiat libero recusandae molestiae sequi nemo? Dolor saepe animi quibusdam nostrum alias voluptatibus nulla, obcaecati facilis magni quas accusantium modi maxime nisi? Provident quod corrupti deleniti aliquid animi culpa libero voluptas quasi maxime, cum eaque.
+        </div>
+        <div class="item-2">
+
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut voluptatibus eum ad nobis, culpa asperiores dignissimos accusamus cumque, quia vel eius magnam placeat! Dolorum, voluptatem? Dolorem praesentium harum enim, quasi reprehenderit similique non magnam consectetur officiis incidunt iure dicta sit.
+        </div>
+        <div class="item-3">3</div>
+        <div class="item-1">1</div>
+        <div class="item-2">
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo est repellendus amet consequuntur sed aliquid odit delectus reprehenderit voluptates. Nesciunt voluptatibus soluta consequuntur hic quasi nobis aut, repudiandae cupiditate dolorum iusto eum perspiciatis error corrupti quod sit voluptates illum animi est, delectus, placeat assumenda accusamus molestiae at rerum? Aliquid esse voluptatum dignissimos nam nobis error animi autem ab repellat laborum eius est, placeat incidunt perferendis voluptatibus ea molestias possimus similique quod officia tenetur, blanditiis voluptatem magnam. Dolores dolorum veritatis accusantium autem minus saepe vitae illo harum error, sint ullam.
+
+        </div>
+        <div class="item-3">3</div>
+
+        <div class="item-1">1</div>
+        <div class="item-2">2</div>
+        <div class="item-3">3</div>
+        <div class="item-1">1</div>
+        <div class="item-2">2</div>
+        <div class="item-3">3</div>
+
+        <div class="item-1">1</div>
+        <div class="item-2">2</div>
+        <div class="item-3">3</div>
+        <div class="item-1">1</div>
+        <div class="item-2">2</div>
+        <div class="item-3">3</div>
+      </div>
+    
+</body>
+</html>
