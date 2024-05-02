@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .container{
+            display:grid;
+            grid-template-columns: 200px 200px 200px;
+            grid-auto-rows: minmax(150px,auto);
+            row-gap: 20px;
+            column-gap: 20px;
+        }
+
+        .item{
+            background-color: gold;
+        }
+
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: aquamarine;
+            height: 700px;
+        }
+
+        .header{
+            display: flex;
+            justify-content: center;
+        }
+
+        .header  h1{
+            padding: 10px;
+            border: 1px solid honeydew;
+            border-radius: 12%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 300;
+            background-color: hotpink;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>
+            First
+        </h1>
+        <h1>
+            Second
+        </h1>
+        <h1>
+            Third
+        </h1>
+
+    </div>
+  <div class="main">
+    <div class="container">
+        <div class="item">
+
+        </div>
+        <div class="item" style="grid-row: span 2;">
+
+        </div>
+        <div class="item">
+
+        </div>
+        <div class="item" style="grid-row: span 2;">
+
+        </div>
+        <div class="item" style="grid-row: span 2;">
+            
+
+        </div>
+        <div class="item" >
+           
+
+        </div>
+
+    </div>
+
+  </div>
+
+   
+    
+</body>
+</html>
