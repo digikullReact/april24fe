@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: 200px 200px 200px  200px 200px 200px 200px;
+            grid-auto-rows: minmax(150px,auto);
+            row-gap: 10px;
+            column-gap: 10px;
+            overflow-x: hidden; /*you can use this to hide the scroll bar*/
+        }
+
+        .item{
+          
+            background-color: lightblue;
+        }
+
+        @media screen and (max-width:800px) {
+            .container{
+                grid-template-columns: 200px 200px 200px  200px  ;
+            }
+            
+        }
+
+        @media screen and (max-width:600px) {
+            .container{
+                grid-template-columns: 200px 200px 200px   ;
+            }
+            
+        }
+
+
+        @media screen and (max-width:400px) {
+            .container{
+                grid-template-columns: 200px 200px    ;
+            }
+            
+        }
+
+        @media screen and (max-width:300px) {
+            .container{
+                grid-template-columns: 200px    ;
+            }
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            One
+
+        </div>
+        <div class="item">
+            Two
+
+        </div>
+        <div class="item">
+            Three
+
+        </div>
+        <div class="item">
+            Four
+
+        </div>
+        <div class="item">
+            Five
+
+        </div>
+        <div class="item">
+            Five
+
+        </div>
+        <div class="item">
+            Five
+
+        </div>
+        <div class="item">
+            Five
+
+        </div>
+        <div class="item">
+            Five
+
+        </div>
+        <div class="item">
+            Five
+
+        </div>
+        <div class="item">
+            Five
+
+        </div>
+        <div class="item">
+            Five
+
+        </div>
+        <div class="item">
+            Five
+
+        </div>
+        <div class="item">
+            Five
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
