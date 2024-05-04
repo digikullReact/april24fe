@@ -5,8 +5,12 @@
 
 .color-blue{
     background-color: blue;
+    height: 300px;
+    width: 300px;
 }
 
 .color-gold{
     background-color: gold;
+    height: 300px;
+    width: 300px;
 }
