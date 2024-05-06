@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ball{
+            width: 50px;
+            height: 50px;
+            background-color: green;
+            border-radius: 50%;
+            position: relative;
+            top:30px;
+            animation:slide 5s infinite ease-in;
+        }
+        .ball2{
+            width: 50px;
+            height: 50px;
+            background-color: gold;
+            border-radius: 50%;
+           
+       
+        }
+
+        /*
+        @keyframes animation-name{
+            from {initial styles}  
+            to {final style}
+            0% {
+              css rules
+            }
+            100%{
+
+            }
+            50%{
+
+            }
+
+
+
+
+        }
+        
+        */
+
+        @keyframes slide {
+            0%{
+                top:10px;
+                transform: scaleY(0.8);
+
+            }
+
+            100%{
+                top:10px;
+                background-color: chartreuse;
+                transform: scaleY(0.8);
+
+            }
+            /*intermeediate steps  for animation*/
+            50%{
+                top:400px;
+                background-color: brown;
+                transform: scaleY(5);
+            }
+            35%{
+                top:100px;
+                background-color: pink;
+                transform: scaleY(1.2);
+            }
+
+            75%{
+                top:100px;
+                background-color: gold;
+                transform: scaleY(1.2);
+            }
+            
+        }
+    </style>
+</head>
+<body>
+
+    <div class="ball">
+
+    </div>
+ 
+    
+</body>
+</html>
