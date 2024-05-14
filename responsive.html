@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*
+      @media type and coditions{
+        
+      }
+      type -screen ,print,speech ,all
+      //** max width and min width
+      */
+
+      .responsive{
+        background-color: greenyellow;
+        height: 500px;
+      }
+      @media screen and (max-width: 400px) {  /* 800px -->700-->600-->500 -->400px*/
+         .responsive{
+            background-color: goldenrod;
+           
+         }
+      }
+      @media screen and (min-width: 400px) {  /* 800px -->700-->600-->500 -->400px*/
+         .responsive{
+           border: 1px solid black;
+           
+         }
+      }
+
+      
+    </style>
+</head>
+<body>
+    <div class="responsive">
+
+
+    </div>
+    
+</body>
+</html>

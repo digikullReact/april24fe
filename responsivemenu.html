@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .container{
+        display: flex;
+        justify-content: center;
+        background-color: gold;
+      }
+      .item{
+        padding: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: x-large;
+        
+      }
+
+      @media screen and (max-width:200px) {
+        .container{
+            flex-wrap: wrap;
+        }
+        
+      }
+
+      @media screen and (max-width:200px ) and (max-width:400px) {
+        .container{
+            flex-wrap: wrap;
+        }
+        
+      }
+      @media screen and (max-width:700px ) and (min-width:600px) {
+        .container{
+            flex-wrap: wrap;
+        }
+        
+      }
+
+      @media screen and (max-width:800px ) and (min-width:600px) {
+        .container{
+            flex-wrap: wrap;
+        }
+        
+      }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            Home
+        </div>
+        <div class="item">
+            About Us
+        </div>
+        <div class="item">
+            Blog
+        </div>
+        <div class="item">
+            Career
+        </div>
+
+    </div>
+    
+</body>
+</html>
